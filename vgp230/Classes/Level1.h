@@ -90,6 +90,7 @@ protected:
 	ParticleSystemQuad* dualGateOpen1;
 	ParticleSystemQuad* dualGateOpen2;
 	ParticleSystemQuad* endGate;
+	ParticleSystemQuad* keyObtained;
 
 	enum selectedMenu
 	{

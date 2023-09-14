@@ -118,6 +118,12 @@ void Level1::initialize(TMXTiledMap* level)
 	setParticlePosition(endGate, playerGoalLayer, (tileSize->width * 1.5f / 2.f));
 	this->addChild(endGate, 2);
 
+	keyObtained = ParticleSystemQuad::create("Particle/KeySparkle.plist");
+	keyObtained->setScale(0.2f);
+	setParticlePosition(keyObtained, keyLayer, (tileSize->width * 1.5f / 2.f));
+	keyObtained->setVisible(false);
+	this->addChild(keyObtained, 2);
+
 	debug = DrawNode::create(5.f);
 	this->addChild(debug, 5);
 }
@@ -279,7 +285,12 @@ void Level1::playerMovement(float dt, Sprite* active, Vec2& pos, KeyboardControl
 		}
 		if (keyLayer->getTileAt(pos) != NULL)
 		{
-			keyLayer->setVisible(false);
+			if (keyLayer->isVisible())
+			{
+				keyObtained->resetSystem();
+				keyLayer->setVisible(false);
+			}
+			keyObtained->setVisible(true);
 			gatesLayer->setVisible(false);
 		}
 
