@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\CMakeFiles\7d47d6c7de83fd39e4ab4734b5668175\SYNC_RESOURCE-vgp230.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\GitHub\2DGamesFinal\vgp230\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\CMakeFiles\SYNC_RESOURCE-vgp230" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4D1D19A5-8A46-3687-8751-E266E8F16805}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

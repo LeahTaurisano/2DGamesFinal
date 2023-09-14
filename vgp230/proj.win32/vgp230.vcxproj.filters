@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GitHub\2DGamesFinal\vgp230\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level1.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Level2.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FinalProject.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Classes\CollisionComponent.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level1.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Classes\KeyboardControllerComponent.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Cheese.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario.json">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario.plist">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_fall_01.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_idle_01.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_idle_02.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_jump_01.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_walk_01.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_walk_02.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\mario_walk_03.png">
+      <Filter>Resources\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\tmx\MarioSampleLevel.tmx">
+      <Filter>Resources\Mario\tmx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\tmx\MarioTileSet.png">
+      <Filter>Resources\Mario\tmx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\Mario\tmx\MarioTileSet.tsx">
+      <Filter>Resources\Mario\tmx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bar_empty.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bar_red.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\black.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\blood_effect.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bloodsplats.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\blue.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_bill.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_enemy.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_enemy_blueorb.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_enemy_orangeorb.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_enemy_orangeorb2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\bullet_player.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\button_off.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\button_on.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier\carrier.plist">
+      <Filter>Resources\carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier\carrier.png">
+      <Filter>Resources\carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier\carrier_trim.plist">
+      <Filter>Resources\carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier\carrier_trim.png">
+      <Filter>Resources\carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierFirstForm.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierP2Glow.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierP2Glow2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierP3Glow.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_03.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_04.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_05.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_06.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_07.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_08.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_09.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_10.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_11.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_12.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_13.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_14.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_15.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_16.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_17.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_18.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_19.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_20.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_21.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_22.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_23.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_24.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_25.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_26.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_27.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_28.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_29.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_30.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_31.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrier_32.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carriergun1_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carriergun2_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierphase3_flap1.2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierphase3_flap1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrierphase3_flap2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\carrot.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\crosshair.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\cyan.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\damageupgrade.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\explosion.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\explosion_anim.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\fighter.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\fightershadowless.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\flare_handgun.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\flare_rifle.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\flare_shotgun.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\flower.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\flower_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\grass.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\grass_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\green.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\hummer.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_03.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_04.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_05.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_06.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_07.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_08.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_09.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_10.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_11.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_12.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_13.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_14.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_15.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_16.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_17.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_18.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_19.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_20.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_21.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_22.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_23.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_24.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_25.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_26.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_27.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_28.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_29.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_30.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_31.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\interceptor_32.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\jeep.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\lamborghini.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\map.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\marinez.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_fall_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_idle_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_idle_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_jump_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_walk_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mario_walk_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\minerals.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-0.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-10.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-11.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-3.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-4.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-5.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-6.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-7.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-8.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mouse-9.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\mushroom.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\muzzle_flare.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\pikachu.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\pix.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\pix_about.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\purple.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\qmark.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\red.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\red_car.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\refinery_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\refinery_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\refinery_03.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\refinery_04.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\refinery_05.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_03.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_04.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_05.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_06.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_07.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_08.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_09.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_10.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_11.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_12.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_13.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_14.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_15.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\scv_16.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\seamless_grass.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\shield.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\space.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\spacebomb.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\spaceshield.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\splashscreen.bmp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\spritesheet.json">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\spritesheet.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\starcraft_buildings.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\stars_l.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\stars_s.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\stone.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\survivor_handgun.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\survivor_rifle.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\survivor_shotgun.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\sword.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\terranscv.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tesla.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tmx\Tiles.png">
+      <Filter>Resources\tmx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tmx\Tileset.tsx">
+      <Filter>Resources\tmx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_01.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_02.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_03.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_04.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_05.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_06.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_07.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_08.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_09.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\track_10.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree0.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree0_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree1.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree1_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree2_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree3.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\tree3_2.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\white.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\yellow.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\zelda.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\zombie_dead.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GitHub\2DGamesFinal\vgp230\Resources\zombie_idle.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Level2.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FinalProject.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GitHub\2DGamesFinal\vgp230\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D313874B-E8B3-31F4-A357-B1D1F15B6FE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mario">
+      <UniqueIdentifier>{C038E88A-4592-3918-BB03-D978B16E2C6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mario\tmx">
+      <UniqueIdentifier>{EF52EC52-C3AD-3112-954E-B4799B78041A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\carrier">
+      <UniqueIdentifier>{C7A65C4F-C2FE-3FC7-81DD-A4532330B0E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{0DFC4175-D59D-3103-A6A7-39A92E70036D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{7E5B0728-2C9A-391E-8992-BBA3193CD3F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\tmx">
+      <UniqueIdentifier>{5F4EBB31-75BB-3681-AB2F-E6F42D913338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{30C56A46-C5CA-3D38-9788-ACC1E7E1F9D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{52724E59-AD03-3CFF-BC0D-FF731E495370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{E43686E8-F87B-3C45-BE16-6E0CF4631CEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

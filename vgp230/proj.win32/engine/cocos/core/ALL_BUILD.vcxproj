@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FDAE4368-AD39-32D3-9EDC-3E0E72324DE8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/GitHub/2DGamesFinal/vgp230/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/2DGamesFinal/vgp230 -BC:/GitHub/2DGamesFinal/vgp230/proj.win32 --check-stamp-file C:/GitHub/2DGamesFinal/vgp230/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\2d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\audio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\base\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\math\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\navmesh\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\network\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\platform\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\renderer\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\ui\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/GitHub/2DGamesFinal/vgp230/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/2DGamesFinal/vgp230 -BC:/GitHub/2DGamesFinal/vgp230/proj.win32 --check-stamp-file C:/GitHub/2DGamesFinal/vgp230/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\2d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\audio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\base\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\math\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\navmesh\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\network\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\platform\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\renderer\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\ui\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/GitHub/2DGamesFinal/vgp230/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/2DGamesFinal/vgp230 -BC:/GitHub/2DGamesFinal/vgp230/proj.win32 --check-stamp-file C:/GitHub/2DGamesFinal/vgp230/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\2d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\audio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\base\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\math\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\navmesh\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\network\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\platform\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\renderer\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\ui\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/GitHub/2DGamesFinal/vgp230/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/2DGamesFinal/vgp230 -BC:/GitHub/2DGamesFinal/vgp230/proj.win32 --check-stamp-file C:/GitHub/2DGamesFinal/vgp230/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\2d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\audio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\base\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\math\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\navmesh\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\network\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\physics3d\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\platform\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\renderer\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\cocos\ui\CMakeLists.txt;C:\GitHub\2DGamesFinal\vgp230\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{39AFFFEF-D36F-37C4-A0EC-8005B8C2DF4E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{03AB2C0A-1A66-32E2-B541-0C8E506ECB77}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{54ACA1BE-59F0-3F7F-B784-BE13742EB84B}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{D16FC139-EBD3-3070-AF04-9E0E8A5769BF}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{0A48818D-9DF7-30FB-87E7-FFE4780A8072}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{D5C3855F-4B8F-3C5C-BFF9-401ADA379C99}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{655E2D40-A48B-3636-B441-7815F570A7E1}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{4D001407-BCEE-38D1-B694-0DB9CBB53F49}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{8F6ED1AE-9CAE-3C6D-A96E-602AB29F4580}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{FFA7E737-3744-3066-AB05-2677856A342E}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{7A4C8985-CDD5-36A2-8EC3-BD01DB75207F}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{38ABEE72-E7F0-3E9C-888E-C7FE1F303B86}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GitHub\2DGamesFinal\vgp230\proj.win32\engine\external\external.vcxproj">
+      <Project>{5FE97E9C-45D4-301D-AE84-DA495C2E5F5C}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
